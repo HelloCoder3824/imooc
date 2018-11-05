@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://www.imooc.com/"></parameter>
+    <test verbose="2" preserve-order="true" name="D:/idea-workspace01/demo/imooc">
+        <classes>
+            <class name="com.jd.testcase.Longin2">
+            </class>
+        </classes>
+    </test>
+</suite>
